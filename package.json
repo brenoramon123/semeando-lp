@@ -1,0 +1,23 @@
+{
+  "name": "semear-lp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenoramon123/semeando-lp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brenoramon123/semeando-lp/issues"
+  },
+  "homepage": "https://github.com/brenoramon123/semeando-lp#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
