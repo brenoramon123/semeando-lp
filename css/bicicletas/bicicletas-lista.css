@@ -33,20 +33,20 @@
 }
 
 .imagem-1{
-    background-image: url("../../assets/images/daniel-romero-AvwGVZWuLYM-unsplash.jpg");
+    background-image: url("../../assets/img/estudosinsta.png");
     background-size: cover;
     background-position: top center;
     
 }
 
 .imagem-2{
-    background-image: url("../../assets/images/thisisengineering-raeng-IpTPp_aPbYE-unsplash.jpg");
+    background-image: url("../../assets/img/natacaoinsta.png");
     background-size: cover;
     background-position: center;
 }
 
 .imagem-3{
-    background-image: url("../../assets/images/insung-yoon-dRUqU4RpeOE-unsplash.jpg");
+    background-image: url("../../assets/img/violaoinsta.png");
     background-size: cover;
     background-position: bottom center;
    
@@ -72,7 +72,7 @@
 .bicicletas-lista h3::before{
     content: "";
     display: inline-block;
-    background-color: var(--cor-p1);
+    background-color: #FFC95A;
     margin-right: 8px;
     height: 8px;
     width: 12px;

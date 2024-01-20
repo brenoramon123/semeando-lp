@@ -1,5 +1,5 @@
 .introducao-bg{
-    background-color: var(--cor-12);
+    background-color: #D67119;
     color: var(--cor-0);
     box-shadow:inset 0 -120px var(--cor-0);
 }
@@ -29,6 +29,7 @@ span{
     margin-bottom: 20px;
     font-family: "Roboto",sans-serif;
     font-weight: 400;
+    color: var(--cor-0);
 }
 
 
@@ -45,7 +46,7 @@ span{
 
 @media (max-width:800px){
     .introducao-bg{
-        background-color: var(--cor-12);
+        background-color: #FFC95A;
         padding-top:40px;
         box-shadow: inset 0 -60px var(--cor-0);
     }

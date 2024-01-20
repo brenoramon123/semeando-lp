@@ -21,7 +21,7 @@
     .profile{
         height: 50px;
         border-radius: 50%;
-        border: 3px solid var(--cor-p1);
+        border: 3px solid #FFC95A;
         width: 50px;
         margin: 0 auto;
         margin-top: -36px;
