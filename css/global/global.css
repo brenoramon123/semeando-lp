@@ -70,7 +70,7 @@ a{
     object-fit: cover;
   }
 
-  @media (max-width:900px){
+  @media (max-width:1300px){
     .menino-imagem{
       display: none;
     }
