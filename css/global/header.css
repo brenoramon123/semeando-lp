@@ -3,7 +3,10 @@
 .header-bg{
     background-color: #D67119;
 }
-
+a{
+    text-decoration: none !important;
+    color: inherit !important;
+}
 .header{
     display: flex;
     flex-wrap: wrap;

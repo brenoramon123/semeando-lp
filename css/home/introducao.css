@@ -1,6 +1,7 @@
 .introducao-bg{
     background-color: #D67119;
     color: var(--cor-0);
+    padding-top: 30px;
     box-shadow:inset 0 -120px var(--cor-0);
 }
 span{
@@ -8,12 +9,13 @@ span{
 }
 .introducao{
     display: grid;
+    align-items: center;
     gap: 20px;
     grid-template-columns: 1fr 1fr;
 }
 
 .introducao-conteudo{
-    padding-bottom: 200px;
+    padding-bottom: 60px;
     align-self: end;
 }
 
@@ -29,10 +31,16 @@ span{
     margin-bottom: 20px;
     font-family: "Roboto",sans-serif;
     font-weight: 400;
-    color: var(--cor-0);
+    color: var(--cor-3);
 }
-
-
+.introducao label{
+    color: var(--cor-3);
+}
+.introducao-imagem{
+    grid-column: 1/-1;
+    max-width: 900px;
+    justify-self: center;
+}
 
 .introducao-imagem img{
     height: 500px;
@@ -40,13 +48,14 @@ span{
     width: 100%;
     border-radius: 4px;
     object-fit: cover;
+    
     background-position: center;
 }
 
 
 @media (max-width:800px){
     .introducao-bg{
-        background-color: #FFC95A;
+        background-color: #D67119;
         padding-top:40px;
         box-shadow: inset 0 -60px var(--cor-0);
     }
@@ -54,6 +63,8 @@ span{
         grid-template-columns: 1fr;
         gap: 32px;
     }
+
+    
     .introducao h1{
         font-size: 32px;
         margin-bottom: 1rem;
@@ -68,3 +79,4 @@ span{
         width: 100%;   
     }
 }
+

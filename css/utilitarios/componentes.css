@@ -1,4 +1,4 @@
-.btn{
+.botaoMeu{
     padding: 16px 32px;
     background: linear-gradient(#ffbb00,#f2a50c);
     display: inline-block;
@@ -15,7 +15,7 @@
     max-width: max-content;
 }
 
-.btn:hover{
+.botaoMeu:hover{
     background: linear-gradient(#ffb60d,#e59317);
 }
 

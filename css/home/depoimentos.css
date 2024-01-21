@@ -72,9 +72,9 @@
 .depoimentos-bg li::after{
     content: ',,';
     color: var(--cor-5);
-    font-size: 120px;
+    font-size: 100px;
     position: absolute;
-    top: 70px;
+    top: 160px;
     left: 150px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
