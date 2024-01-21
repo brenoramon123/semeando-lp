@@ -1,5 +1,6 @@
 .seguros-bg{
     background-color: var(--cor-11);
+    position:relative;
 }
 
 .seguros{
@@ -70,5 +71,6 @@
         grid-template-columns: 1fr;
     }
 }
+
 
 
